@@ -1,0 +1,58 @@
+{
+  "entries": [
+    {
+      "parent": "Generic ABS",
+      "nozzles": ["0.2", "0.4", "0.6", "0.8"],
+      "base": {
+        "id": "90001",
+        "brand": "Porima",
+        "name": "Porima ABS Basic",
+        "minTemp": 230,
+        "maxTemp": 260,
+        "density": 1.04
+      },
+      "kv": {
+        "filament_vendor": "Porima",
+        "nozzle_temperature": "250",
+        "nozzle_temperature_initial_layer": "250",
+        "hot_plate_temp": "100",
+        "hot_plate_temp_initial_layer": "100",
+        "pressure_advance": "0.04"
+      }
+    },
+    {
+      "parent": "Generic PLA",
+      "nozzles": ["0.4"],
+      "base": {
+        "id": "90002",
+        "brand": "Porima",
+        "name": "Porima PLA Premium",
+        "minTemp": 190,
+        "maxTemp": 230
+      },
+      "kv": {
+        "filament_vendor": "Porima",
+        "nozzle_temperature": "215"
+      }
+    },
+    {
+      "parent": "Generic ABS",
+      "nozzles": ["0.4"],
+      "base": {
+        "id": "90003",
+        "brand": "Istanbul Filament",
+        "name": "Istanbul Filament HIPS Support",
+        "meterialType": "HIPS",
+        "minTemp": 220,
+        "maxTemp": 250,
+        "density": 1.05
+      },
+      "kv": {
+        "filament_vendor": "Istanbul Filament",
+        "filament_type": "HIPS",
+        "nozzle_temperature": "240",
+        "hot_plate_temp": "100"
+      }
+    }
+  ]
+}
